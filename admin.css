@@ -1,0 +1,157 @@
+.body{
+    background: #ffff;
+    height: 100vh;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 15px;
+}
+.box-container{
+    padding-top: 20px;
+}
+.box{
+    border: 1px solid #888;
+    background: #f7f7f7;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    min-width: 300px;
+}
+.box h3{
+    font-weight: bolder;
+}
+.box p{
+    border: 1px solid #8888;
+    background-color: #ffff;
+    color: purple;
+    border-radius: 5px;
+    padding: 5px 0 5px 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+.form_container .form_row .form_col .btn{
+    background: purple;
+    color: #fff;
+    transition: .3s linear;
+}
+.form_container .form_row .form_col .btn:hover{
+    background: rgb(65, 65, 65);
+    color: #fff;
+}
+.show .show_products{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.show .show_products .products{
+    width: 250px;
+    border: 1px solid #8888;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.show_products img{
+    max-width: 200px;
+    min-width: 200px;
+}
+.show .price{
+    color: orangered;
+}
+.show p{
+    font-size: 18px;
+}
+.show .update_btn{
+    background-color: orange;
+    color: #f7f7f7;
+    box-shadow: 0px 0px 5px #888;
+}
+.show .delete_btn{
+    background-color: red;
+    color: #f7f7f7;
+    box-shadow: 0px 0px 5px #b1b1b1;
+}
+.empty{
+    display: flex;
+    justify-content: center;
+    background: #f7f7f7;
+    color: red;
+}
+
+.update_post{
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+}
+.update_post .form_col{
+    background: #f7f7f7;
+}
+.order{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+}
+.order_container{
+    border: 1px solid #8888;
+    border-radius: 7px;
+    padding: 10px;
+    min-width: 280px;
+    overflow: wrap;
+    background-color: #f7f7f7;
+}
+.order_container .info{
+    color: purple;
+}
+.order_container .delete_btn{
+    color: #ffff;
+    background: red;
+    margin-bottom: -20px;
+    box-shadow: 0px 0px 5px #b1b1b1;
+} 
+.order_container .delete_btn:hover{
+    color: #ffff;
+    background: rgb(114, 114, 114);
+} 
+.order_container .update_btn{
+    color: #f7f7f7;
+    background: orange;
+    margin-bottom: -20px;
+    box-shadow: 0px 0px 5px #b1b1b1;
+}
+.order_container .update_btn:hover{
+    color: #f7f7f7;
+    background: rgb(115, 115, 115);
+}
+.cart{
+    padding-top: 20px;
+}
+.cart_container .added_cart{
+    position: relative;
+}
+.cart_container .added_cart .update_btn{
+    background: rgb(227, 147, 0);
+    color: #ffff;
+    margin-top: 10px;
+}
+.cart_container .added_cart .close{
+    background-color: rgb(222, 0, 0);
+    color: white;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.cart_container .added_cart .update_btn:hover{
+    background: #483603;
+}
+.cart_container .added_cart .close a{
+    color: white;
+}
